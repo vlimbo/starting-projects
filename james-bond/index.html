@@ -8,6 +8,43 @@
     <title>James Bond</title>
 
     <style>
+      .sidebar-container {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 0px;
+        z-index: 1;
+        background-color: #755956;
+        color: white;
+        width: 100px;
+        text-align: center;
+      }
+
+      .home-icon {
+        height: 50px;
+      }
+
+      .sidebar-container h2 {
+        margin: 0;
+        text-decoration: underline;
+        margin-bottom: 25px;
+      }
+
+      .book-container {
+        width: 80px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        height: 120px;
+      }
+
+      .book-container img {
+        height: 120px;
+      }
+
+      #author {
+        font-style: italic;
+        font-size: 17px;
+      }
 
     </style>
   </head>
@@ -16,6 +53,35 @@
       <h1>The James Bond Series</h1>
       <p>Daniel Craig - Edition</p>
     </div>
+    <div class="sidebar-container">
+      <img class="home-icon" src="icons/menu_book_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">
+      <h2>Books</h2>
+      <div class="book-container">
+        <a href="https://www.amazon.com/Casino-Royale-James-Bond-Fleming/dp/1612185436" target="_blank">
+          <img class="casino-royale" src="images/books-images/Untitled.jpg">
+        </a>
+      </div>
+      <div class="book-container">
+        <a href="https://www.amazon.com/live-let-die-ian-fleming/dp/0099576864" target="_blank">
+          <img class="casino-royale" src="images/books-images/book-2.jpg">
+        </a>
+      </div>
+      <div class="book-container">
+        <a href="https://www.amazon.com/Dr-No-James-Bond-007/dp/0099576929" target="_blank">
+          <img class="casino-royale" src="images/books-images/book-3.jpg">
+        </a>
+      </div>
+      <div class="book-container">
+        <a href="https://www.amazon.com/Goldfinger-James-Bond-Ian-Fleming/dp/1612185509" target="_blank">
+          <img class="casino-royale" src="images/books-images/book-4.jpg">
+        </a>
+      </div>
+      <div class="book-container">
+        <a href="https://www.amazon.com/Ian-Fleming-Golden-Gun-007s-Adventure/dp/B0013I4ZK4" target="_blank">
+          <img class="casino-royale" src="images/books-images/book-5-use.jpg">
+        </a>
+      </div>
+      <p id="author">Ian Fleming</p>
     </div>
   </body>
 </html>

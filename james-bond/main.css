@@ -2,6 +2,8 @@
   vertical-align: top;
   align-content: center;
   margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
 }
 
 .main-text {

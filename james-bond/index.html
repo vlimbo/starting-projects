@@ -11,6 +11,73 @@
     <title>James Bond</title>
 
     <style>
+      .imdb-rating {
+        position: absolute;
+        right: 8px;
+        bottom: 14px;
+        text-align: center;
+      }
+
+      .imdb-rating-skyfall {
+        position: absolute;
+        right: 3px;
+        bottom: 14px;
+      }
+
+      .imdb-rating-skyfall h3 {
+        background-color: rgb(245, 199, 31);
+        width: 55px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+
+      .imdb-rating-skyfall p {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+      }
+
+      .imdb-rating-notime {
+        position: absolute;
+        right: 7px;
+        bottom: 44px;
+      }
+
+      .imdb-rating-notime h3 {
+        background-color: rgb(245, 199, 31);
+        width: 55px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+      
+      .imdb-rating-notime p {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+      }
+
+      .imdb-rating h3 {
+        background-color: rgb(245, 199, 31);
+        width: 55px;
+        text-align: center;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+
+      .imdb-rating p {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+      }
+
+      #rating {
+        font-weight: bold;
+        font-size: 11px;
+      }
+
+
 
     </style>
   </head>
@@ -58,6 +125,11 @@
           </p>
         </div>
         <img id="casino" src="images/movie-posters/casino-royale.jpg">
+        <div class="imdb-rating">
+          <h3>IMDb</h3>
+          <p id="rating">8.0/10</p>
+          <p>IMDb Rating</p>
+        </div>
       </div>  
       <div class="movie-container">
         <div class="main-text">
@@ -67,6 +139,11 @@
           </p>
         </div>
         <img id="quantum" src="images/movie-posters/this-quantum-of-solace-poster-is-gorgeous-v0-0glm7vh04zxb1.webp">
+        <div class="imdb-rating">
+          <h3>IMDb</h3>
+          <p id="rating">6.5/10</p>
+          <p>IMDb Rating</p>
+        </div>
       </div>  
       <div class="movie-container">
         <div class="main-text">
@@ -76,6 +153,11 @@
           </p>
         </div>
         <img id="skyfall" src="images/movie-posters/skyfall-use-this.jpg">
+        <div class="imdb-rating-skyfall">
+          <h3>IMDb</h3>
+          <p id="rating">7.8/10</p>
+          <p>IMDb Rating</p>
+        </div>
       </div>  
       <div class="movie-container">
         <div class="main-text">
@@ -85,6 +167,11 @@
           </p>
         </div>
         <img id="spectre" src="images/movie-posters/spectre.JPG">
+        <div class="imdb-rating">
+          <h3>IMDb</h3>
+          <p id="rating">6.8/10</p>
+          <p>IMDb Rating</p>
+        </div>
       </div>  
       <div class="movie-container">
         <div class="main-text">
@@ -94,6 +181,11 @@
           </p>
         </div>
         <img id="no-time" src="images/movie-posters/no-time-to-die.jpg">
+        <div class="imdb-rating-notime">
+          <h3>IMDb</h3>
+          <p id="rating">7.3/10</p>
+          <p>IMDb Rating</p>
+        </div>
       </div>  
     </div>
   </body>

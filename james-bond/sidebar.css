@@ -8,6 +8,7 @@
   color: white;
   width: 100px;
   text-align: center;
+  border-right: 2px solid black;
 }
 
 .home-icon {
@@ -26,6 +27,7 @@
   margin-bottom: 25px;
   height: 120px;
   transition: box-shadow 0.15s;
+  box-sizing: border-box;
 }
 
 .book-container:hover {

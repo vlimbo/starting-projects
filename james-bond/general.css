@@ -2,6 +2,8 @@ body {
   font-family: Montserrat, Arial;
   margin: 0;
   padding-bottom: 1000px;
+  padding-left: 160px;
+  padding-top: 95px;
   background-color: rgba(158, 158, 158, 0.3);
 }
 
@@ -12,4 +14,8 @@ p {
 h1 {
   margin: 0;
   font-size: 40px;
+}
+
+h3 {
+  margin: 0;
 }

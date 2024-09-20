@@ -1,0 +1,42 @@
+.sidebar-container {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #755956;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+
+.home-icon {
+  height: 50px;
+}
+
+.sidebar-container h2 {
+  margin: 0;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.book-container {
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  height: 120px;
+  transition: box-shadow 0.15s;
+}
+
+.book-container:hover {
+  box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.9)
+}
+
+.book-container img {
+  height: 120px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 17px;
+}

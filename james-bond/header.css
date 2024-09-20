@@ -1,13 +1,3 @@
-body {
-  font-family: Montserrat, Arial;
-  margin: 0;
-  padding-bottom: 1000px;
-}
-
-p {
-  margin: 0;
-}
-
 .header-container {
   background-color: #001F3F;
   color: #EAD8B1;
@@ -22,9 +12,4 @@ p {
 .header-container p {
   font-size: 20px;
   font-style: italic;
-}
-
-h1 {
-  margin: 0;
-  font-size: 40px;
 }

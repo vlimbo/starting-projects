@@ -2,13 +2,14 @@
   background-color: #001F3F;
   color: #EAD8B1;
   text-align: center;
-  height: 85px;
+  height: 80px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   border-bottom: 2px solid black;
   z-index: 2;
+  min-width: 755px;
 }
 
 .header-container p {
